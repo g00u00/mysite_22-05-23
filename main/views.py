@@ -19,7 +19,7 @@ def index(request):
     print(request.GET.get("y"))
     y = request.GET.get("y")
     print (y)
-    return HttpResponse("index(HttpResponse)",y, status=200)
+    return HttpResponse("index(HttpResponse)"+y, status=200)
 
 # def index_abc_pk(request, abc, pk):
 #     print ( abc, pk)
