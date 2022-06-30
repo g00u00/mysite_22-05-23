@@ -15,7 +15,7 @@ class Abc(models.Model):
     pub_date = models.DateTimeField('Дата выполнения', default=timezone.now())
 
     class Meta:
-        verbose_name =  'Таблица выполненных заданий'
+        verbose_name = 'Таблица выполненных заданий'
         verbose_name_plural = 'Таблицы выполненных заданий'
 #    pub_date = models.DateTimeField(default=timezone.now())
 #    pub_date = models.DateTimeField(default=date.today())
